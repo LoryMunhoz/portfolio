@@ -119,6 +119,9 @@ text-align: center;
         background-color: var(--cor-secundaria);
         border-radius: 16px;
         height: 50%;
+        font-family: 'Raleway', sans-serif; 
+        text-align: center;
+                
     }
 
 .sobre__mim {
@@ -135,6 +138,12 @@ text-align: center;
         }
       
         .cabecalho {
+          padding: 10%;
+          display: flex;
+          justify-content: center;
+        }
+
+        .cabecalho__sobremim {
           padding: 10%;
           display: flex;
           justify-content: center;
@@ -162,7 +171,7 @@ text-align: center;
         }
       
         .rodape {
-          position: static;
+          position: fixed;
         }
       }
       
